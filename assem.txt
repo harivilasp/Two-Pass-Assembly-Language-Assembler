@@ -1,0 +1,6 @@
+	ORG 0000
+MAIN:	MVI E,0F;
+	MOV D,E;
+	JNZ MAIN
+	HLT
+	END
